@@ -14,7 +14,7 @@ Q1: Loading and preprocessing the data
 # 1. Load the data (i.e. read.csv())
 library(tidyr)
 library(dplyr)
-setwd("C:/Users/Chandler/Desktop/Coursera/[R] Reproducible Research")
+setwd("C:/Users/Chandler/Desktop/Coursera/[R] Reproducible Research/RepData_PeerAssessment1")
 raw_activity <- as.data.frame(read.csv("activity.csv",header = TRUE))
 
 # 2. Process/transform the data (if necessary) into a format suitable for your analysis
