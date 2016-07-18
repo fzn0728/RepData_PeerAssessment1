@@ -125,16 +125,8 @@ $(document).ready(function () {
 <p>Q1: Loading and preprocessing the data</p>
 <pre class="r"><code># 1. Load the data (i.e. read.csv())
 library(tidyr)
-library(dplyr)</code></pre>
-<pre><code>## 
-## Attaching package: 'dplyr'</code></pre>
-<pre><code>## The following objects are masked from 'package:stats':
-## 
-##     filter, lag</code></pre>
-<pre><code>## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>setwd(&quot;C:/Users/Chandler/Desktop/Coursera/[R] Reproducible Research&quot;)
+library(dplyr)
+setwd(&quot;C:/Users/Chandler/Desktop/Coursera/[R] Reproducible Research/RepData_PeerAssessment1&quot;)
 raw_activity &lt;- as.data.frame(read.csv(&quot;activity.csv&quot;,header = TRUE))
 
 # 2. Process/transform the data (if necessary) into a format suitable for your analysis
